@@ -797,8 +797,11 @@ input[type="submit"] {
     .form-registerm,
     .reg-store {
         font-size: 18px;
-        width: 400px;
-        margin: 30px auto;
+        max-width: 100%;
+        width: auto;
+        margin: 10px auto;
+        border: none;
+        padding: 0;
     }
 
     .text-title h2 {
@@ -886,8 +889,11 @@ input[type="submit"] {
     .form-registerm,
     .reg-store {
         font-size: 18px;
-        width: 400px;
-        margin: 30px auto;
+        max-width: 100%;
+        width: auto;
+        margin: 10px auto;
+        border: none;
+        padding: 0;
     }
 
     .text-title h2 {
@@ -921,6 +927,7 @@ input[type="submit"] {
 
     .register {
         font-size: 20px;
+        
     }
 
     .reg {
@@ -930,6 +937,7 @@ input[type="submit"] {
 
     .reg-store {
         width: 50px;
+        
 
     }
 
@@ -963,16 +971,16 @@ input[type="submit"] {
     }
 
 
-    /*Настройка карусели на ГЛАВНОЙ странице (отличительный класс my-carousel*/
+    /*Настройка карусели на худ странице */
     .frame-carusel-art-wh {
         max-width: 95%;
         width: auto;
         margin: 0 auto;
-        height: 300px;
+        height: 200px;
     }
 
     .carousel slide {
-        width: 350px;
+        width: 200px;
         margin: 0 auto;
     }
 
@@ -987,7 +995,7 @@ input[type="submit"] {
     .carousel slide,
     .carousel-item img {
 
-        width: 350px;
+        width: 200px;
         object-fit: cover;
     }
 
